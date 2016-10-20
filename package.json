@@ -1,0 +1,23 @@
+{
+  "name": "node-express-babel-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate of node.js express app with babel and es6 source code.",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "babel -w src/ -d dist/",
+    "build": "babel src/ -d dist/",
+    "serve": "babel -w src/ -d dist/ | nodemon --watch dist"
+  },
+  "author": "Maciej Sikora hello@maciejsikora.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "nodemon": "^1.11.0"
+  }
+}
