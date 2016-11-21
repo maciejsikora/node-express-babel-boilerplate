@@ -17,3 +17,7 @@ npm run serve
 #### 5.Start work
 
 Start programming in es6 in src directory. Files will be compiled to es5 and served by nodemon server.
+
+#### 6. Important
+
+**Node.js works with ES6 without babel**, so using babel here has sense only with experimentials features witch exists in babel and not exists in base node.js, for more info read - https://nodejs.org/en/docs/es6/.
